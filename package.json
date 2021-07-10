@@ -1,0 +1,41 @@
+{
+    "name": "codeceptjs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "codecept.conf.js",
+    "scripts": {
+        "test": "codeceptjs run --steps --reporter mochawesome",
+        "codeceptjs": "codeceptjs run --steps",
+        "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
+        "codeceptjs:ui": "codecept-ui --app",
+        "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/olgabugayova/CodeceptJS.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/olgabugayova/CodeceptJS/issues"
+    },
+    "homepage": "https://github.com/olgabugayova/CodeceptJS#readme",
+    "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/register": "^7.14.5",
+        "@codeceptjs/configure": "^0.6.2",
+        "@codeceptjs/examples": "^1.2.1",
+        "@codeceptjs/ui": "^0.4.6",
+        "codeceptjs": "^3.0.7",
+        "faker": "^5.5.3",
+        "mochawesome": "^6.2.2",
+        "playwright": "^1.12.3",
+        "rosie": "^2.1.0"
+    },
+    "dependencies": {
+        "expect": "^27.0.6"
+    }
+}
