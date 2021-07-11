@@ -1,0 +1,346 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-11T03:13:15.244Z",
+    "end": "2021-07-11T03:13:44.622Z",
+    "duration": 29378,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c15419a9-e0f3-447f-a52c-44ac5d576add",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2de31704-51ce-4c01-abf8-0cc918638275",
+          "title": "authorization",
+          "fullFile": "/Users/olgabugayova/WebstormProjects/CodeceptJS/authorization_test.js",
+          "file": "/authorization_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"authorization\"",
+              "fullTitle": "authorization \"before all\" hook: codeceptjs.beforeSuite in \"authorization\"",
+              "timedOut": false,
+              "duration": 1848,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "2212951e-0515-4015-9932-65b13988ea6b",
+              "parentUUID": "2de31704-51ce-4c01-abf8-0cc918638275",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"authorization\"",
+              "fullTitle": "authorization \"before each\" hook: codeceptjs.before in \"authorization\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "75baa711-d1f1-4af1-a502-9c715224e1f0",
+              "parentUUID": "2de31704-51ce-4c01-abf8-0cc918638275",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"authorization\"",
+              "fullTitle": "authorization \"after all\" hook: codeceptjs.afterSuite in \"authorization\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "a3d42a5b-1c5a-4dca-86a8-9899ba22f59d",
+              "parentUUID": "2de31704-51ce-4c01-abf8-0cc918638275",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"authorization\"",
+              "fullTitle": "authorization \"after each\" hook: finalize codeceptjs in \"authorization\"",
+              "timedOut": false,
+              "duration": 4,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "53c43537-c2f6-4245-8bef-271f2d647b78",
+              "parentUUID": "2de31704-51ce-4c01-abf8-0cc918638275",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "test authorization",
+              "fullTitle": "authorization: test authorization",
+              "timedOut": false,
+              "duration": 3511,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I, mainPage}) => {\n    I.amOnPage('/');\n    mainPage.login('test_user5670695', 'test');\n    I.see('Welcome back Olga');",
+              "err": {},
+              "uuid": "f8379a16-22a7-4c83-a1cb-8dad5e4c8c7c",
+              "parentUUID": "2de31704-51ce-4c01-abf8-0cc918638275",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f8379a16-22a7-4c83-a1cb-8dad5e4c8c7c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3511,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "4beac628-6d1a-42e2-8c65-d28bf9970c35",
+          "title": "cart",
+          "fullFile": "/Users/olgabugayova/WebstormProjects/CodeceptJS/cart_test.js",
+          "file": "/cart_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"cart\"",
+              "fullTitle": "cart \"before all\" hook: codeceptjs.beforeSuite in \"cart\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "7d797616-08bf-4be3-bac6-031aded99762",
+              "parentUUID": "4beac628-6d1a-42e2-8c65-d28bf9970c35",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"cart\"",
+              "fullTitle": "cart \"before each\" hook: codeceptjs.before in \"cart\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "77c19db5-601d-47c6-96fe-964c9360879b",
+              "parentUUID": "4beac628-6d1a-42e2-8c65-d28bf9970c35",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"cart\"",
+              "fullTitle": "cart \"after all\" hook: codeceptjs.afterSuite in \"cart\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "59daa1ba-2606-4e3a-81fc-c2de21360843",
+              "parentUUID": "4beac628-6d1a-42e2-8c65-d28bf9970c35",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"cart\"",
+              "fullTitle": "cart \"after each\" hook: finalize codeceptjs in \"cart\"",
+              "timedOut": false,
+              "duration": 2,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "722d40f3-be1d-4aca-8d00-f0ef80d7467d",
+              "parentUUID": "4beac628-6d1a-42e2-8c65-d28bf9970c35",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Пользователь может добавить товар в корзину",
+              "fullTitle": "cart: Пользователь может добавить товар в корзину",
+              "timedOut": false,
+              "duration": 5166,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I, mainPage, apparelCategoryPage, shoesPage, productPage, cartPage, categoryMenu}) => {\n        I.amOnPage('/');\n        mainPage.login('test_user5670695', 'test');\n        categoryMenu.gotoApparel();\n        apparelCategoryPage.gotoShoesCategory();\n        shoesPage.gotoProduct();\n        const productNameText = await productPage.getProductName();\n        productPage.addToCart();\n        I.see(productNameText);\n        cartPage.removeItem();",
+              "err": {},
+              "uuid": "b8be6780-b499-4df8-a294-f479aa7807f9",
+              "parentUUID": "4beac628-6d1a-42e2-8c65-d28bf9970c35",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Пользователь может удалить товар из корзины",
+              "fullTitle": "cart: Пользователь может удалить товар из корзины",
+              "timedOut": false,
+              "duration": 5059,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I, mainPage, apparelCategoryPage, shoesPage, productPage, cartPage, categoryMenu}) => {\n        I.amOnPage('/');\n        mainPage.login('test_user5670695', 'test');\n        categoryMenu.gotoApparel();\n        apparelCategoryPage.gotoShoesCategory();\n        shoesPage.gotoProduct();\n        productPage.addToCart();\n        cartPage.removeItem();\n        I.see('Your shopping cart is empty!');",
+              "err": {},
+              "uuid": "c797968e-6f06-410c-bf80-0b0cf0393f51",
+              "parentUUID": "4beac628-6d1a-42e2-8c65-d28bf9970c35",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Пользователь может оформить заказ",
+              "fullTitle": "cart: Пользователь может оформить заказ",
+              "timedOut": false,
+              "duration": 6548,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I,\n               mainPage,\n               apparelCategoryPage,\n               shoesPage,\n               productPage,\n               cartPage,\n               categoryMenu,\n               checkoutConfirmationPage,\n               checkoutSuccessPage\n    }) => {\n        I.amOnPage('/');\n        mainPage.login('test_user5670695', 'test');\n        categoryMenu.gotoApparel();\n        apparelCategoryPage.gotoShoesCategory();\n        shoesPage.gotoProduct();\n        const productNameText = await productPage.getProductName();\n        productPage.addToCart();\n        cartPage.checkout();\n        checkoutConfirmationPage.confirmOrder();\n        I.see('YOUR ORDER HAS BEEN PROCESSED!');\n        checkoutSuccessPage.gotoInvoicePage();\n        I.see(productNameText);",
+              "err": {},
+              "uuid": "5963a499-b70f-4103-8fca-bf3c2a388a5e",
+              "parentUUID": "4beac628-6d1a-42e2-8c65-d28bf9970c35",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Сделанный заказ сохраняется в историю заказов",
+              "fullTitle": "cart: Сделанный заказ сохраняется в историю заказов",
+              "timedOut": false,
+              "duration": 7135,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I,\n               mainPage,\n               apparelCategoryPage,\n               shoesPage,\n               productPage,\n               cartPage,\n               categoryMenu,\n               checkoutConfirmationPage,\n               checkoutSuccessPage,\n               invoicePage\n           }) => {\n        I.amOnPage('/');\n        mainPage.login('test_user5670695', 'test');\n        categoryMenu.gotoApparel();\n        apparelCategoryPage.gotoShoesCategory();\n        shoesPage.gotoProduct();\n        productPage.addToCart();\n        cartPage.checkout();\n        checkoutConfirmationPage.confirmOrder();\n        const orderID = await checkoutSuccessPage.getOrderID();\n        checkoutSuccessPage.gotoInvoicePage();\n        invoicePage.gotoOrderHistory();\n        I.see(orderID);",
+              "err": {},
+              "uuid": "8b700dc5-23bf-43bf-950b-fdf4123418e6",
+              "parentUUID": "4beac628-6d1a-42e2-8c65-d28bf9970c35",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b8be6780-b499-4df8-a294-f479aa7807f9",
+            "c797968e-6f06-410c-bf80-0b0cf0393f51",
+            "5963a499-b70f-4103-8fca-bf3c2a388a5e",
+            "8b700dc5-23bf-43bf-950b-fdf4123418e6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 23908,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.1.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "output"
+      },
+      "version": "5.2.0"
+    }
+  }
+}
