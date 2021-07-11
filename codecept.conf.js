@@ -6,19 +6,22 @@ exports.config = {
       url: 'https://automationteststore.com',
       show: true,
       browser: 'chromium',
-      waitForNavigation: "networkidle0"
-    },
-    REST: {
-      endpoint: "https://airportgap.dev-tester.com",
-      defaultHeaders: {
-        'Content-Type': 'application/json',
+      ChaiWrapper: {
+        "require": "codeceptjs-chai"
       },
     },
   },
   include: {
     I: './steps_file.js',
     mainPage: './pages/main.js',
-    PersonBuilder: './builder/newUser.js',
+    apparelCategoryPage: './pages/apparelCategory.js',
+    cartPage: './pages/cart.js',
+    productPage: './pages/product.js',
+    shoesPage: './pages/shoes.js',
+    categoryMenu: './fragments/categoryMenu.js',
+    checkoutConfirmationPage: './pages/checkoutConfirmation.js',
+    checkoutSuccessPage: './pages/checkoutSuccess.js',
+    invoicePage: './pages/invoice.js',
   },
   bootstrap: null,
   mocha: {

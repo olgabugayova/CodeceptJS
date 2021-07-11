@@ -1,6 +1,12 @@
 const { I } = inject();
 
 module.exports = {
+    buttons: {
+        shoesCategory: ('#maincontainer > div > div > div > div > ul > li:nth-child(1) > div > a'),
+    },
 
-  // insert your locators and methods here
+    gotoShoesCategory() {
+        I.waitForElement(this.buttons.shoesCategory, 15);
+        I.click(this.buttons.shoesCategory);
+    },
 }
